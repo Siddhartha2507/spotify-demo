@@ -1,0 +1,41 @@
+#question1
+fruits = [["jack","apple"],["orange","kiwi"],["dragon","grape"]]
+print(fruits[2][0])
+
+#question2
+a = ((0,1),(2,3),(4,5))
+print(a[2][1])
+
+#question3
+a = [("alice",23),("bob,21")]
+print(a[1][1])
+
+#question4
+a = ([10,20],[30,40])
+print(a[1][1])
+
+#question5
+students = {
+    "name" : "siddharth",
+    "age" : 420,
+    "name2" : "akshar",
+    "age" : 69
+}
+print(students.get(name)])
+
+#question6
+subject_marks = {
+    "science" : 60,
+    "maths" : 70
+}
+print(subject_marks.get("maths"))
+
+#question7
+a = {
+    "alice" = {
+        "name" = "sid"
+        "age" = 18
+    }
+}
+print(a)
+
