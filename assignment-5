@@ -33,9 +33,74 @@ print(subject_marks.get("maths"))
 #question7
 a = {
     "alice" = {
-        "name" = "sid"
+        "name" = "alice",
         "age" = 18
     }
 }
 print(a)
 
+#question8
+billing_dictionary = ["transaction1" = {
+    amount : 35
+}, "transaction2" = {
+    amount2 = 40
+}]
+print(billing_dictionary.status[1]["amount2"])
+
+#question9
+billing_dictionary = (
+{
+"user1" : "siddharth" , "age" : 23,"amount" : 4000},
+{"user2" : "akshar" , "age" : 30, "amount3" : 3000}
+)
+print(billing_dictionary.get("amount"))
+
+#question10
+a = [(hyd,35),(mumbai,40),(delhi,45)]
+print(a[2][1])
+
+#question11
+dictionary = {
+    "username_1" = [10,20,30],
+    "username_2" = [25,35,45]
+
+}
+print(dictionary.get("username_1"))
+
+#question12
+a = [{
+    "pen" : 20
+}, {
+    "pencil" : 30
+}]
+print(a[1].get("pencil"))
+
+#question13
+a = [("maths",40),("science",60)]
+print(a[0][1])
+
+#question14
+a = {
+    "monday" : ("clean","water"),
+    "tuesday" : ("ontv", "gardening"),
+    "wednesday" : ("cooking", "washing")
+
+}
+print(a.get("monday"))
+
+#question15
+a = [{
+    "name" : "sid",
+    "marks" : {
+        "maths" : 90,
+        "science" : 80
+    }
+},
+{
+    "name" : "bob"
+    "marks" : {
+        "maths" : 96,
+        "science" : 65
+    }
+}]
+print("math marks for the first student:",a[0]["marks"]["maths"])
