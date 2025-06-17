@@ -40,7 +40,15 @@ a = format_user_info("akshar", 45)
 print(a)
 
 #question6
-#def uppercase_if_string(a):
+def uppercase_if_string(a):
+   if isinstance(a, str):
+      return a.upper()
+   else:
+      return "invalid input"
+   
+b =  uppercase_if_string("damn")
+print(b)
+
    
 
 #question7
