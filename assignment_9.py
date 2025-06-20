@@ -32,3 +32,35 @@ a = [{
 }]
 for i in a:
    print(f"{i["name"]}, {i["age"]}")
+
+#question6
+fruits = [["apple","banana"],["grape","mango"]]
+for fruit in fruits:
+   print(fruits)
+
+#question7
+message = input("enter a message:")
+for character in message:
+   print(character)
+
+#question8
+for numbers in range(5,0,-1):
+   print(numbers)
+
+#question10
+a = [("pen",10),("pencil",5)]
+for product,price in a:
+   print(f"product: {product},price: {price}")
+
+#question9
+
+subjects = [{
+   "subjects" : input("enter subjects:"),
+   "marks" : input("enter marks:")
+}
+ for _ in range(3)]
+for subject in subjects:
+   print(f"{subject["subjects"]}: {subject["marks"]}")
+   
+
+
