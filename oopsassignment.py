@@ -204,10 +204,13 @@ member.Return()
 #question4
 class PRODUCT:
 
-    def __init__(self,brand,price,color):
+    def __init__(self,brand,price,color,product_id):
         self.brand = brand
         self.price = price
         self.color = color
+        self.product_id = product_id
+
+
 
     def view_details(self):
         print(f"Product ID: {self.product_id}")
@@ -225,7 +228,7 @@ class CART:
         self.brand = brand
         self.price = price
         self.color = color
-        self.products = products
+        self.products = product
 
     def add_product(self, product):
         self.products.append(product)
@@ -265,6 +268,12 @@ product.view_details()
 
 
 
+
+
+a = ["cat","dog","donkey","monkey"]
+for animals in a:
+    a.append([0],"do")
+    print(a)
 
 
         
