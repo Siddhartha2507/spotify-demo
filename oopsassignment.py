@@ -201,6 +201,71 @@ member = MEMBER('bahubali','rithvik')
 libranian.issue()
 member.Return()
 
+#question4
+class PRODUCT:
+
+    def __init__(self,brand,price,color):
+        self.brand = brand
+        self.price = price
+        self.color = color
+
+    def view_details(self):
+        print(f"Product ID: {self.product_id}")
+        print(f"Name: {self.name}")
+        print(f"Price: ₹{self.price}")
+        print(f"Description: {self.description}")
+
+
+    def function(self):
+        print(f" {self.brand} is fucntioning well and its price is {self.price} ")
+
+class CART:
+
+    def __init__(self,brand,price,color):
+        self.brand = brand
+        self.price = price
+        self.color = color
+        self.products = products
+
+    def add_product(self, product):
+        self.products.append(product)
+        print(f"{product.name} added to cart.")
+
+    def mobile(self):
+        print(f"{self.brand} mobile is added to the cart ")
+
+    def identification(self):
+        print(f" the item added to the cart has {self.color} ")
+
+
+
+class USER:
+
+    def __init__(self,name,address,total_bill):
+        self.name = name
+        self.total_bill = total_bill
+        self.address = address
+        self.cart = cart
+
+
+    def total(self):
+        print(f"The total of Mr/Mrs {self.name} s cart is {self.total_bill} ")
+
+    def location(self):
+        print(f" Address of Mr/Mrs {self.name} is {self.address} ")
+
+    def add_to_cart(self, product):
+        self.cart.add_product(product)
+
+product = PRODUCT('crocs',1599,'black')
+cart  = CART('apple',80000,'white')
+user = USER('siddhartha', '12-1-169/p8 nagole', 19999)
+
+product.view_details()
+
+
+
+
 
         
 
