@@ -119,3 +119,28 @@ mobile = Mobile("iphone")
 camera = Camera()
 camera.mobile.take_picture()
 
+
+
+
+
+
+
+#Create a class called dog , name ,breed,. implemnt encapsulation for name
+
+class Dog:
+
+    def __init__(self,name,breed):
+        self.__name = name
+        self.breed = breed
+
+    def set_name(self,new_name):
+        self._name = new_name
+        
+
+    def get_name(self):
+        return self.__name
+            
+
+dog = Dog("rocky","lab")
+print(dog.get_name())
+
