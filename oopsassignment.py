@@ -270,10 +270,7 @@ product.view_details()
 
 
 
-a = ["cat","dog","donkey","monkey"]
-for animals in a:
-    a.append([0],"do")
-    print(a)
+
 
 
         

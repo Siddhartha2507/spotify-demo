@@ -1,10 +1,14 @@
 #lists inside lists
-fruits = [
+
+#fruits = [
     ["jack", "apple"],
     ["orange", "kiwi"],
     ["dragon", "grape"]
 ]
-fruits[0].append("fruit")
-print(fruits)
+#fruits[0].append("fruit")
+#print(fruits)
+
+#2. tuple inside tuple
+
 
 
