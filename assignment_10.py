@@ -115,6 +115,20 @@ x = 'a1b2c3'
 result = x[::2]
 print(result)
 
+#question9
+output = "XXXX XXXX XXXX YYYY"
+number = input("enter number:")
+last_digits = number[::-4]
+final_word = output.replace('YYYY',last_digits)
+print(final_word)
+
+#question10
+word = "python"
+
+for i in range(len(word)):
+    print(" " * i + word[i])
+
+
 
 
         
