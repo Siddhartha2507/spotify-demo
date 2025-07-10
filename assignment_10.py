@@ -116,17 +116,33 @@ result = x[::2]
 print(result)
 
 #question9
-output = "XXXX XXXX XXXX YYYY"
-number = input("enter number:")
-last_digits = number[::-4]
-final_word = output.replace('YYYY',last_digits)
-print(final_word)
+# output = "XXXX XXXX XXXX YYYY"
+# number = input("enter number:")
+# last_digits = number[::-4]
+# final_word = output.replace('YYYY',last_digits)
+# print(final_word)
 
 #question10
 word = "python"
 
 for i in range(len(word)):
     print(" " * i + word[i])
+
+#question
+nums = [1,2,8,68,9,45,9,4]
+def print_even(numbers,i):
+    if i >= len(numbers):
+        return
+    if numbers[i]%2 == 0:
+       print(nums[i])
+       print_even(nums, i + 1)
+       
+
+print_even(nums, 0)
+
+
+
+
 
 
 
